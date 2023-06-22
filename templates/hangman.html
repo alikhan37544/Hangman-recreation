@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Hangman</h1>
+    <div id="word-container">
+        <p id="word"></p>
+    </div>
+    <div id="guess-container">
+        <input type="text" id="guess-input" maxlength="1" placeholder="Enter a letter">
+        <button id="guess-button">Guess</button>
+    </div>
+    <div id="attempts-container">
+        <p id="attempts">Attempts Left: <span id="attempts-left">6</span></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

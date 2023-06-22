@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#word-container {
+    margin-bottom: 20px;
+}
+
+#attempts {
+    margin-top: 20px;
+}
