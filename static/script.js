@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const guessButton = document.getElementById('guess-button');
     const attemptsLeft = document.getElementById('attempts-left');
 
-    let word = 'hangman';
+    let word = wordContainer.textContent;
     let guessedLetters = [];
     let attempts = 6;
 
